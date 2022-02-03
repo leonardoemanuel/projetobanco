@@ -37,6 +37,8 @@ section#informaçoesPessoais{
     padding: 8px;
     width: 97%;
     margin-bottom: 20px;
+    background-color: white;
+    color: black;
 }
 #informaçoesPessoais p{
     font-size: 1.2em;
@@ -68,6 +70,8 @@ section#contabancaria{
     width: 97%;
     margin-bottom: 20px;
     margin-top: 5px;
+    color: black;
+    background-color: white;
 }
 #contabancaria p{
     
