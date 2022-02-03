@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'maquinaescrever';
+    src: url(../fonts/maquinaescrever.otf) format('opentype');
+}
+:root{
+    --corprincipal:#6a6af5;
+    --corsecundaria:#030355;
+    --corfonte:white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: var(--corprincipal);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1{
+    border-bottom: 2px solid var(--corsecundaria);
+    padding: 10px;
+    color: var(--corsecundaria);
+}
+/*section de informaçoes pessoais*/
+section#informaçoesPessoais{
+    background-color: var(--corsecundaria);
+    color: var(--corfonte);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    
+}
+#informaçoesPessoais input{
+    display: block;
+    padding: 8px;
+    width: 97%;
+    margin-bottom: 20px;
+}
+#informaçoesPessoais p{
+    font-size: 1.2em;
+    
+}
+#informaçoesPessoais h2{
+    margin-bottom: 20px;
+}
+.botaoavançar{
+    margin: 40px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    font-size: 1.3em;
+    color: var(--corsecundaria);
+}
+/*contabancaria*/
+section#contabancaria{
+    background-color: var(--corsecundaria);
+    color: var(--corfonte);
+    padding: 0px 20px 20px 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: none;
+}
+#contabancaria input{
+    display: block;
+    padding: 8px;
+    width: 97%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#contabancaria p{
+    
+    margin-top: 10px;
+    
+}#contabancaria h2{
+    font-size: 2em;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+#contabancaria h3{
+    font-size: 1.8em;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+}
+#historico{
+    font-family:'maquinaescrever' ;
+    display: none;
+    
+}
+.botao{
+    padding: 5px;
+    font-size: 1.3em;
+    color: var(--corsecundaria);
+}

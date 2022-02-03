@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Banco</title>
+</head>
+<body>
+    <header>
+        <h1>Banco</h1>
+    </header>
+    <section id="informaçoesPessoais">
+        <h2>Preencha com suas informções:</h2>
+        <p>Nome Completo: <input type="text" id="nomeCompleto"></p>
+        <p>Idade: <input type="number"  id="idade" maxlength="2" min="0"></p>
+        <p>Endereço: <input type="text"  id="endereço"></p>
+        <p>Número da conta: <input type="number" id="numeroConta"></p>
+        <button onclick="avançar()" class="botaoavançar">Avançar</button>
+    </section>
+    <section id="contabancaria">
+        <h2 id="saldo">Saldo R$:</h2>
+        <p>Valor:</p>
+        <input type="number"  id="valordigitado">
+        <button onclick="adicionar()" class="botao">Adicionar</button>
+        <button onclick="retirar()" class="botao">Retirar</button>
+        <div id="divdados" >
+            <h3>Dados:</h3>
+            <p id="dados">
+
+            </p>
+        </div>
+        <div id="divhistorico">
+            <h3>
+                Histórico Bancario:
+            </h3>
+            <p id="historico">
+                
+            </p>
+            <p>
+                <input type="button" value="Mostrar Histórico" onclick="mostrarHistorico()"  id="botaohistorico">
+            </p>
+        </div>
+    </section>
+
+
+   
+   
+   
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
